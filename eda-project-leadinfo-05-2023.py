@@ -7,6 +7,8 @@
 # Can we find other industries that are worth keeping in mind? Based on website visits in combination with company characteristics such as revenue, amount of employees and location.
 # Where to reach these companies? Location, social media...
 
+import pandas as pd
+
 # Read the data file
 data = pd.read_csv('C:\\Users\\laura\\My Drive\\Data Analytics Bootcamp Allwomen\\_DA_course\\finalProject_\\Leadinfo_export_120523.csv', sep=';')
 data.head()
